@@ -6,9 +6,9 @@
 package main
 
 import (
-	"github.com/mohuishou/go-training/Week04/homework/internal/repository"
-	"github.com/mohuishou/go-training/Week04/homework/internal/service"
-	"github.com/mohuishou/go-training/Week04/homework/internal/usecase"
+	"github.com/Liusiyuan-git/Go-learning/week4/internal/repository"
+	"github.com/Liusiyuan-git/Go-learning/week4/internal/service"
+	"github.com/Liusiyuan-git/Go-learning/week4/internal/usecase"
 )
 
 // Injectors from wire.go:
