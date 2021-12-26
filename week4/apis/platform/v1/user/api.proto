@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package platform.v1;
+option go_package = "github.com/Liusiyuan-git/Go-learning/week4/apis/platform/v1/user";
+
+service UserServerServer {
+  rpc GetUserInfo(GetUserInfoRequest) returns (GetUserInfoResponse){}
+}
+
+message GetUserInfoRequest{
+}
+
+message GetUserInfoResponse{
+}
+
